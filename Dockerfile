@@ -1,7 +1,7 @@
 FROM wodby/openjdk:17-alpine
 
 #Expose le port de l'application spring Boot
-Expose 8089
+EXPOSE 8089
 
 # Ajoute le livrable Spring Boot dans l'image
 # ADD target/school-1.0.0.jar school-1.0.0.jar
